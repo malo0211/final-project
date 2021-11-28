@@ -65,7 +65,7 @@ header nav{
     width:fit-content;
     padding:10px 0;
 }
-nav ul{
+nav li{
     list-style-type: none;
     display:block;
 }
