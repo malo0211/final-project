@@ -89,8 +89,12 @@ nav{
     margin:0 0 0 100px;
     display:inline-block;
     list-style-type: none;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
 }
 nav #logo{
+    display:inline-block;
     float:left;
     position:absolute;
 }
@@ -105,13 +109,7 @@ nav li:hover{
     background-color: rgb(216, 161, 10);
     color: #242424;
 }
-/**
-#navbar{
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-}
-**/
+
 @media screen and (min-width: 480px){
     #navbar{
         display:flex;
