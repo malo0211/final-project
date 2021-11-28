@@ -65,18 +65,15 @@ header nav{
     overflow: hidden;
     display: inline-block;
     width:fit-content;
-    float: left;
     padding:10px 0;
 }
 nav ul{
     list-style-type: none;
 }
-
-nav #search{
-    float:left;
+nav ul:hover{
+    background-color: rgb(216, 161, 10);
+    text-decoration: #242424;
 }
-
-
 
 
 
