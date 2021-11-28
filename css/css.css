@@ -56,20 +56,21 @@ body{
 
 
 /******* STYLING NAV BAR ***********/
-.container{
+header{
     background-color: #242424;
 }
-#nav{
+nav{
     text-decoration:rgb(216, 161, 10);
-    text-align: justify;
-    list-style-type: none;
+    text-align: center;
     overflow: hidden;
     display: inline-block;
     width: auto;
     float: left;
-    padding:10px;
+    padding:10px 0;
 }
-
+nav ul{
+    list-style-type: none;
+}
 
 
 
