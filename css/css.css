@@ -75,6 +75,7 @@ h3{
 nav, footer{
     background-color: #242424; 
     color: rgb(216, 161, 10);
+    width: 100%;
 }
 nav{
     text-align: center;
