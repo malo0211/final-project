@@ -82,6 +82,7 @@ nav, footer{
     color: rgb(216, 161, 10);
     width: 100%;
     overflow: auto;
+    justify-content: space-between;
 }
 nav{
     text-align: center;
@@ -90,8 +91,9 @@ nav{
     list-style-type: none;
 }
 #logo{
-   display:flex;
-    flex:right;}
+    position:absolute;
+    float:left;
+}
 /**
 nav li{
     display:inline-block;
