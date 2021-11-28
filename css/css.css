@@ -68,7 +68,7 @@ h3{
 
 
 /******* STYLING NAV BAR ***********/
-header, footer{
+nav, footer{
     background-color: #242424; 
     color: rgb(216, 161, 10);
 }
@@ -87,8 +87,13 @@ nav ul:hover{
 }
 
 
-
-
+/**** STYLING HEADER ******/
+header #main-banner{
+    position:relative;
+}
+header h1{
+    position:absolute;
+}
 
 
 
