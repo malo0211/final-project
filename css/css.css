@@ -51,7 +51,9 @@ table {
 /** end of css reset**/
 
 
-/*******************STYLES FOR ENTIRE PAGE*********************/
+/*********************************************
+            STYLES FOR ENTIRE PAGE
+**********************************************/
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -59,7 +61,7 @@ h1{
     font-size:2rem;
     text-emphasis: bold;}
 h2{
-    font-size:2em;
+    font-size:1rem;
     text-emphasis: bold;}
 h3{
     font-size: 12px;
@@ -67,7 +69,9 @@ h3{
 
 
 
-/******* STYLING NAV BAR ***********/
+/*********************************************
+                STYLING NAV BAR 
+**********************************************/
 nav, footer{
     background-color: #242424; 
     color: rgb(216, 161, 10);
@@ -87,7 +91,10 @@ nav ul:hover{
 }
 
 
-/**** STYLING HEADER ******/
+/**** STYLING HEADER ATTEMPT ***
+
+
+
 header #main-banner{
     position:relative;
 }
@@ -96,6 +103,12 @@ header h1{
 }
 
 
+
+and media screen stuff!!!!!!
+@media screen and (min-width: 480px)
+
+
+***/
 
 
 
