@@ -94,8 +94,17 @@ nav ul:hover{
     background-color: rgb(216, 161, 10);
     color: #242424;
 }
-
-
+#navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+@media screen and (min-width: 480px){
+    #navbar{
+        display:flex;
+        flex-direction: column;
+    }
+}
 /**** STYLING HEADER ATTEMPT ***
 
 
