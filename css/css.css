@@ -62,7 +62,7 @@ h1{
     font-size:2rem;
     text-emphasis: bold;
 }
-h2{
+h2, #search, #digital, #marketing, #video, #web, #print{
     font-size:1.5rem;
     text-emphasis: bold;
 }
