@@ -81,19 +81,21 @@ nav, footer{
     background-color: #242424; 
     color: rgb(216, 161, 10);
     width: 100%;
+    overflow: auto;
 }
-nav, #logo-img{
+nav{
     text-align: center;
-    margin:10px 0;
+    margin:0 0 0 100px;
     display:inline-block;
-
+    list-style-type: none;
 }
+/**
 nav li{
-    list-style-type: none; 
     display:inline-block;
     padding: 10px 5px;
     box-sizing: border-box;
 }
+**/
 nav li:hover{
     background-color: rgb(216, 161, 10);
     color: #242424;
