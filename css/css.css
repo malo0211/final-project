@@ -69,7 +69,7 @@ header nav{
 }
 nav ul{
     list-style-type: none;
-    display:inline-block;
+    display:block;
 }
 nav ul:hover{
     background-color: rgb(216, 161, 10);
