@@ -87,8 +87,9 @@ nav{
     background-color: #242424; 
     color: rgb(216, 161, 10);
     width: 100%;
-    overflow: auto;
     justify-content: space-between;
+    display: flex;
+    flex-direction:row;
 }
 nav li{
     box-sizing: border-box;
