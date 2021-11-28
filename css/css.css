@@ -72,7 +72,12 @@ h3{
 .container{
 width: 1200px;
 }
-
+@media screen and (min-width: 480px){
+    #navbar{
+        display:flex;
+        flex-direction: column;
+    }
+}
 
 /*********************************************
                 STYLING NAV BAR 
@@ -84,18 +89,17 @@ nav, footer{
     overflow: auto;
     justify-content: space-between;
 }
-
+nav ul{
+    box-sizing: border-box;
+    border:none;
+    display:flex;
+    flex-direction: row;
+}
 nav li:hover{
     background-color: rgb(216, 161, 10);
     color: #242424;
 }
 
-@media screen and (min-width: 480px){
-    #navbar{
-        display:flex;
-        flex-direction: column;
-    }
-}
 /**** STYLING HEADER ATTEMPT ***
 
 
