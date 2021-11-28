@@ -91,7 +91,7 @@ nav{
     display: flex;
     flex-direction:row;
 }
-ul{
+#list{
     background-color: #242424; 
     color: rgb(216, 161, 10);
     display: flex;
