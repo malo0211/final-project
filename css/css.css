@@ -58,7 +58,8 @@ body{
 /******* STYLING NAV BAR ***********/
 .container{
     background-color: #242424;
-    display: inline;
+    display: inline-block;
+    width:auto;
 }
 #nav{
     text-decoration:rgb(216, 161, 10);
