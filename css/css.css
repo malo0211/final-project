@@ -54,7 +54,6 @@ body{
 }
 
 
-
 /******* STYLING NAV BAR ***********/
 header{
     background-color: #242424; 
@@ -67,11 +66,10 @@ nav{
 }
 nav li{
     list-style-type: none;
-    display:block;
 }
 nav ul:hover{
     background-color: rgb(216, 161, 10);
-    text-decoration: #242424;
+    color: #242424;
 }
 
 
