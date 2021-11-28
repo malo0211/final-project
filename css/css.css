@@ -49,9 +49,22 @@ table {
 
 
 /** end of css reset**/
+
+
+/*******************STYLES FOR ENTIRE PAGE*********************/
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+h1{
+    font-size:2rem;
+    text-emphasis: bold;}
+h2{
+    font-size:2em;
+    text-emphasis: bold;}
+h3{
+    font-size: 12px;
+}
+
 
 
 /******* STYLING NAV BAR ***********/
