@@ -91,12 +91,7 @@ nav{
     display: flex;
     flex-direction:row;
 }
-nav li{
-    box-sizing: border-box;
-    border:none;
-    display:flex;
-    flex-direction: row;
-}
+
 nav li:hover{
     background-color: rgb(216, 161, 10);
     color: #242424;
