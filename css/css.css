@@ -88,6 +88,10 @@ nav{
     padding:10px 0;
     display:inline-block;
 }
+#logo-img{
+    display:flex;
+    flex:right;
+}
 nav li{
     list-style-type: none; 
     display:inline-block;
