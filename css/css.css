@@ -55,7 +55,7 @@ body{
 
 
 /******* STYLING NAV BAR ***********/
-header{
+header, footer{
     background-color: #242424; 
 }
 nav{
