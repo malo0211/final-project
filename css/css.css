@@ -93,6 +93,7 @@ nav li{
     display:inline-block;
 }
 nav li:hover{
+    box-sizing: border-box;
     background-color: rgb(216, 161, 10);
     color: #242424;
 }
