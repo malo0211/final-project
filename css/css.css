@@ -70,8 +70,9 @@ h3{
     font-size: 1.5rem;
 }
 .container{
-width: 1200px;
+width: 100%;
 }
+
 @media screen and (min-width: 480px){
     #navbar{
         display:flex;
@@ -89,7 +90,7 @@ nav{
     overflow: auto;
     justify-content: space-between;
 }
-nav ul{
+nav li{
     box-sizing: border-box;
     border:none;
     display:flex;
