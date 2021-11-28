@@ -59,14 +59,14 @@ body{
 .container{
     background-color: #242424;
     display: inline-block;
-    width:auto;
+    width: auto;
+    float:left;
+    padding:10px;
 }
 #nav{
     text-decoration:rgb(216, 161, 10);
     text-align: center;
     list-style-type: none;
-    padding:10px;
-    float:left;
     overflow:hidden;
 }
 
