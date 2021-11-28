@@ -89,13 +89,13 @@ nav{
     display:inline-block;
     list-style-type: none;
 }
-/**
+
 nav li{
     display:inline-block;
     padding: 10px 5px;
     box-sizing: border-box;
 }
-**/
+
 nav li:hover{
     background-color: rgb(216, 161, 10);
     color: #242424;
