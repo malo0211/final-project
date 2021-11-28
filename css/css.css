@@ -82,22 +82,19 @@ nav, footer{
     color: rgb(216, 161, 10);
     width: 100%;
 }
-
-nav{
+nav, #logo-img{
     text-align: center;
-    padding:10px 0;
+    margin:10px 0;
     display:inline-block;
-}
-#logo-img{
-    display:flex;
-    flex:right;
+
 }
 nav li{
     list-style-type: none; 
     display:inline-block;
+    padding: 10px 5px;
+    box-sizing: border-box;
 }
 nav li:hover{
-    box-sizing: border-box;
     background-color: rgb(216, 161, 10);
     color: #242424;
 }
