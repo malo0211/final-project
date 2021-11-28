@@ -58,7 +58,9 @@ body{
 /******* STYLING NAV BAR ***********/
 .container{
     background-color: #242424;
-    
+    text-decoration:rgb(216, 161, 10);
+    text-align: center;
+    display: inline-block;
 }
 
 
