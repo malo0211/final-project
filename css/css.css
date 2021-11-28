@@ -86,10 +86,10 @@ nav, footer{
 nav{
     text-align: center;
     padding:10px 0;
+    display:inline-block;
 }
 nav li{
     list-style-type: none;
-    display:block;
 }
 nav ul:hover{
     background-color: rgb(216, 161, 10);
