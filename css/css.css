@@ -95,7 +95,7 @@ nav{
 #logo{
     margin-left: 25px; 
 }
-nav li{
+#list{
     display: flex;
     justify-content: space-between;
     align-items: center;
