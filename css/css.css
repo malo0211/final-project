@@ -96,9 +96,7 @@ nav{
     margin-left: 25px; 
 }
 #list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: inline-block;
 }
 nav li:hover{
     background-color: rgb(216, 161, 10);
