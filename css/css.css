@@ -89,7 +89,8 @@ nav{
     width: 100%;
     display:flex;
     align-items: center;
-    padding:10px;
+    justify-content: center;
+    padding:50px;
 }
 #logo{
     margin-left: 25px; 
@@ -98,7 +99,6 @@ nav li{
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    flex-grow: 1,2,3,4,5;
     padding: 30px;
 }
 nav li:hover{
