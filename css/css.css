@@ -94,7 +94,8 @@ nav{
     padding:50px;
 }
 #logo{
-    margin-left: 25px; 
+    margin-left: 20px; 
+    margin-right: 10px;
 }
 
 nav li{
@@ -110,7 +111,6 @@ nav li:hover{
 #search{
     padding:2px;
 }
-
 /**** STYLING HEADER ATTEMPT ***
 
 
