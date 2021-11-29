@@ -91,7 +91,7 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding:40px;
+    padding:10px;
 }
 #logo{
     margin-left: 20px; 
@@ -109,7 +109,7 @@ nav li:hover{
     color: #242424;
 }
 #search{
-    padding:2px;
+    height:fit-content;
 }
 /**** STYLING HEADER ATTEMPT ***
 
