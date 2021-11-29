@@ -88,7 +88,7 @@ nav{
     color: rgb(216, 161, 10);
     width: 100%;
     display:flex;
-    flex:auto;
+    flex:row;
     justify-content: space-between;
 }
 #logo{
