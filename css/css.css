@@ -77,6 +77,7 @@ width: 100%;
     #navbar{
         display:flex;
         flex-direction: column;
+        width:100%;
     }
 }
 
@@ -90,7 +91,7 @@ nav{
     display:inline-flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding:10px;
 }
 #logo{
@@ -102,7 +103,7 @@ nav li{
     box-sizing: border-box;
     display: inline;
     width:100%;
-    padding: 30px;
+    padding: 10px;
 }
 nav li:hover{
     background-color: rgb(216, 161, 10);
