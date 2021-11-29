@@ -97,7 +97,8 @@ nav{
 }
 nav li{
     box-sizing: border-box;
-    display: inline-flex;
+    display: inline-block;
+    display:flex;
     align-items: center;
     width:100%;
     padding: 30px;
