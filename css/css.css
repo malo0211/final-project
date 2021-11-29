@@ -96,7 +96,6 @@ nav{
 nav li{
     box-sizing: border-box;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     flex-grow: 1;
     padding: 30px;
