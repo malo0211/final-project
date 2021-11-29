@@ -91,11 +91,11 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding:50px;
+    padding:40px;
 }
 #logo{
     margin-left: 20px; 
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 nav li{
