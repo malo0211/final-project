@@ -100,7 +100,7 @@ nav{
 
 nav li{
     box-sizing: border-box;
-    display: inline-flex;
+    display: inline;
     width:100%;
     justify-content: space-between;
     padding: 20px 30px;
