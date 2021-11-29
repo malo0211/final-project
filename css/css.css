@@ -102,6 +102,7 @@ nav li{
     box-sizing: border-box;
     display: inline;
     width:100%;
+    justify-content: space-between;
     padding: 30px;
 }
 nav li:hover{
