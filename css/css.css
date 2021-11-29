@@ -88,7 +88,6 @@ nav{
     color: rgb(216, 161, 10);
     width: 100%;
     display:flex;
-    flex:row;
     align-items: stretch;
     justify-content: space-between;
     padding:10px;
