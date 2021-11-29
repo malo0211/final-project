@@ -95,9 +95,6 @@ nav{
 #logo{
     margin-left: 25px; 
 }
-#list{
-    display: inline-block;
-}
 nav li:hover{
     background-color: rgb(216, 161, 10);
     color: #242424;
