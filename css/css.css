@@ -97,7 +97,7 @@ nav{
 }
 nav li{
     display: flex;
-    justify-content: center;
+    flex-grow: 1;
 }
 nav li:hover{
     background-color: rgb(216, 161, 10);
