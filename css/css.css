@@ -103,7 +103,6 @@ nav li{
     display: inline;
     width:100%;
     justify-content: space-between;
-    padding: 30px;
 }
 nav li:hover{
     background-color: rgb(216, 161, 10);
