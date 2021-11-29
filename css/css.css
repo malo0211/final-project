@@ -96,9 +96,10 @@ nav{
     margin-left: 25px; 
 }
 nav li{
+    box-sizing: border-box;
     display: flex;
     flex-grow: 1;
-    padding:30px;
+    padding: 30px;
 }
 nav li:hover{
     background-color: rgb(216, 161, 10);
