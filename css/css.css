@@ -95,6 +95,10 @@ nav{
 #logo{
     margin-left: 25px; 
 }
+nav li{
+    display: flex;
+    justify-content: center;
+}
 nav li:hover{
     background-color: rgb(216, 161, 10);
     color: #242424;
