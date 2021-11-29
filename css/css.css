@@ -95,12 +95,10 @@ nav{
 #logo{
     margin-left: 25px; 
 }
-#list{
-    display:inline-flex;
-}
+
 nav li{
     box-sizing: border-box;
-    display: inline-block;
+    display: inline;
     display:flex;
     align-items: center;
     width:100%;
