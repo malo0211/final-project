@@ -107,6 +107,9 @@ nav li:hover{
     background-color: rgb(216, 161, 10);
     color: #242424;
 }
+#search{
+    padding:2px;
+}
 
 /**** STYLING HEADER ATTEMPT ***
 
