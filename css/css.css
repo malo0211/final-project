@@ -87,7 +87,7 @@ nav{
     background-color: #242424; 
     color: rgb(216, 161, 10);
     width: 100%;
-    
+    align-items: center;
 }
 #logo{
     margin-left: 25px;
