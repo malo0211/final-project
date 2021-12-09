@@ -67,22 +67,41 @@ h2{
 h3{
     font-size: 1.5rem;
 }
+
 .nav-container{
-width: 100%;
-background-color: #242424; 
-color: #C68D00;
-padding:10px;
+    background-color: #242424; 
+    color: #C68D00;
+}
+nav li:hover{
+    background-color: #C68D00;
+    color: #242424;
 }
 
-@media screen and (max-width: 480px){
-    .nav-container{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-    }
+
+@media screen and (max-width: 650px){
 #logo{
     background-color: #C68D00;
-    width:100%;
+    display:block;
+    float: left;
+    padding-bottom: 50px;
+    padding-right: 100%;
+    margin-bottom: 20px;
     }
+ul li{
+        display:block;
+        text-align: center;
+        padding: 20px;
+    }
+.search input{
+    width: 90%;
+    height:25px;
+    }
+
+.zoom{
+    background-color:#242424;
+    color:#C68D00;
+    float: right;
+    width: 10%;
+}
+
 }
