@@ -78,6 +78,8 @@ nav li:hover{
 }
 
 
+/*****MOBILE STYLES*********/
+
 @media screen and (max-width: 650px){
 #logo{
     background-color: #C68D00;
@@ -90,18 +92,50 @@ nav li:hover{
 ul li{
         display:block;
         text-align: center;
-        padding: 20px;
+        padding: 15px;
     }
 .search input{
-    width: 90%;
+    width: 100%;
     height:25px;
     }
-
-.zoom{
-    background-color:#242424;
-    color:#C68D00;
-    float: right;
-    width: 10%;
 }
 
+/*********applicable to all**********/
+
+
+#main-banner{
+    width: 100%;
+    position:absolute;
+}
+#banner h1{
+    font-size: 3rem;
+    font-weight:bold;
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height: 1.5;
+}
+#banner{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: relative;
+    padding-left:10px;
+    overflow:hidden;
+}
+#banner p{
+    padding-bottom:10px;
+    line-height: 1.4;
+    font-size:0.7rem;
+}
+#banner button{
+    padding:20px;
+    background-color: #C68D00;
+    border:none;
+}
+.about{
+    background-color:#FFE6AC;
+}
+.about img{
+    width:100%;
+    padding:10px;
 }
