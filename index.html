@@ -12,9 +12,8 @@
 <!-- body -->
 
 <body>
-    <div class="container">   
         <!-- NAV BAR -->
-            <nav>
+            <nav class="nav-container">
                 <div id="logo">
                     <img src ="images/logo.png" alt="logo" title="Star Logo">
                 </div>
@@ -28,12 +27,16 @@
                         <li>Contact</li> 
                         <!-- search box in nav-->
                         <li><form class="search" action="search.html" method="get" style="max-width:300px">
-                            <input type="text" placeholder="Search"></input> 
-                            <button type="submit"><i class="fa-search"></i></button></li>
+                            <input type="text" placeholder="Search">
+                            <button type="submit" id="zoom">
+                                <i class="css/icons/zoom.svg"></i>
+                            </button>
+                            </form>
+                            </li>
                     </ul>
                </div>
             </nav>
-    
+
         <!-- main header and header image-->
     <header>
         <div>
@@ -47,8 +50,7 @@
 
     <!-- about us section -->
     <main>
-    <div>
-        <div>
+    <article>
             <div>
                 <img src="images/about-us.jpg" id="about-us" alt="ping pong table" title="Ping Pong Table" >
             </div>
@@ -56,12 +58,11 @@
                 <h2>About Us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
             </div>   
-        </div>
-    </div>
+    </article>
 
 
 <!-- our services container-->
-<div>
+<article>
     <div>   
         <h2>Our Services</h2>
     </div> 
@@ -110,10 +111,10 @@
         <button type="submit"> Print Plans &#9654;
         </button>
     </div>
-</div>
+</article>
 
  <!-- new div / Our Vision section -->
-<div>
+<article>
     <img src="images/vision.jpg" alt="origami image">
     <div>
         <h3>Our Vision</h3>
@@ -121,10 +122,10 @@
         <button type="submit"> Learn More &#9654;
         </button>
     </div>
-</div>
+</article>
 
 <!-- Our Team section -->
-<div>
+<article>
     <h2>Our Team</h2> 
     <div id="john-pic">
         <img src="images/john.jpg" alt="picture of john">
@@ -144,10 +145,10 @@
     <div id="bob-pic">
         <img src="images/bob.jpg" alt="picture of bob">
     </div>
-</div>
+</article>
 
 <!-- contact us section -->
-<div>
+<section>
     <h2>Contact Us</h2>
 <!--form div-->
     <div id="contact-1">
@@ -170,8 +171,9 @@
         <h3>Location</h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17877.995821703047!2d-75.76130581628756!3d45.35001318659236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1638032962051!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
+</section>
 <!--hours table div-->
-    <div id="contact-3">
+    <article id="contact-3">
         <h3>Hours of operation</h3>
         <table>
             <thead>
@@ -190,9 +192,8 @@
                     <td>Closed</td>
                 </tr>
             </tbody>
-        </table>
-    </div>
-</div>
+        </table>    
+    </article>
 </main>
 
 <!-- footer / bottom of page-->
@@ -201,6 +202,5 @@
 <p> All images are taken from <a href="unsplash">Unsplash</a></p>
 </footer>
 
-        </div>
     </body>
 </html>
