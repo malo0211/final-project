@@ -46,7 +46,13 @@ table {
 	border-collapse: collapse;
     border-spacing: 0;
 }
-
+hr{
+    height: 1px;
+    background-color: #C68D00;
+    border:none;
+    margin-right:10px;
+    margin-left:10px;
+}
 
 /** end of css reset**/
 
@@ -68,6 +74,7 @@ h3{
     font-size:1.5rem;
 }
 .nav-container{
+    padding: 10px;
     background-color: #242424; 
     color: #C68D00;
 }
@@ -88,12 +95,14 @@ nav li:hover{
 
 /**** nav bar ****/
 #logo{
+    width:inherit;
+    border: none;
     background-color: #C68D00;
-    display:block;
-    float:left;
+    overflow:hidden;
+    margin-bottom: 10px;
+    float: left;
     padding-bottom: 50px;
-    padding-right: 100%;
-    margin-bottom: 20px;
+    padding-right:80%;
     }
 ul li{
     display:block;
@@ -143,54 +152,202 @@ header{
 #about{
     display:block;
     background-color: #f8db93;
-    width: 100%;
+    width: fit-content;
     position: relative;
     float:inline-start;
     overflow:hidden;
+    padding:10px;
 }
 #about h2{
     padding-top:20px;
-    padding-right:20px;
     padding-bottom: 20px;
-    padding-left: 10px;
     font-weight: bold;
 }
 #about p{
     line-height: 1.3rem;
-    padding:10px;
 }
 #about-us{
-    padding:10px;
     position: relative;
     width:100%;
 }
 
 /*** our services ***/
 #services{
-    padding-top:20px;
-    display:block;
+    padding: 10px;
     position:relative;
-    width: 100%;
+    width: fit-content;
     background-color:white;
     display: inline-block;
     font-weight: bold;
-    padding:10px;
 }
+#services h2{
+    margin-top:20px;
+    margin-bottom: 10px;
 }
 .picture{
     position: relative;
-    width:100%
+    width:100%;
 }
 .section{
-   margin-bottom: 10px;
-   margin-right: 20px;
-    background-color: #f8db93;
-    width: 100%;
+     margin-bottom: 10px;
+     background-color: #f8db93;
+     width: 100%;
 }
 .section h3{
     padding: 10px;
 }
 .section p{
     padding: 10px;
+    font-weight: normal;
+    line-height: 1.3rem;
+}
+.section button{
+    padding:20px;
+    background-color: black;
+    color: white;
+    border:none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+/****** our vision section*****/
+#image-vision{
+    width: 100%;
+    max-width:650px;
+    overflow:hidden;
+    height:220px;
+    object-fit:cover;
+    position:absolute;
+    margin-bottom: 20px;
+}
+#vision{
+    position:relative;
+    color: white;
+    padding: 10px;
+    padding-bottom:0px;
+    line-height: 1.3rem;
+}
+#vision h3{
+    font-weight: bold;
+    padding-top: 20px;
+}
+#vision p{
+    padding-top: 20px;
+}
+#vision button{
+    padding:25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: solid 1px #C68D00;
+    margin-top: 10px;
+}
+#team{
+    padding:10px;
+    position: relative;
+    display:block;
+    width: fit-content;
+    float:inline-start;
+    overflow:hidden; 
+}
+
+#team h2{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.profile{
+    background-color: #f8db93;
+    padding-bottom: 10px;
+}
+#team h3, b{
+    font-weight: bold;
+    padding:10px;
+    line-height: 0.5rem;
+}
+#team b{
+    font-size: 0.8em;
+}
+#team p{
+    padding-bottom: 25px;
+}
+
+
+/******** Contact section**********/
+#contact{
+    padding:10px;
+}
+#contact h2{ 
+    font-weight: bold;
+    margin-top:25px;
+}
+#contact h3{
+    padding: 20px 0 10px 0;
+    font-weight: bold;
+}
+#contact form{
+    padding: 0px 10px 15px 0;
+}
+#contact input, textarea{
+    border:1px solid #242424;
+    border-radius:3px;
+    padding: 5px;
+    width:100%;
+    margin-top:5px;
+    display:block;
+    overflow:hidden;
+}
+
+#message{
+    height: 7rem;
+}
+#contact button{
+    font-size: 1rem;
+    background-color: #242424;
+    color:#C68D00;
+    padding:5px;
+    border:none;
+}
+.table{
+    margin:10px;
+}
+table{
+    width:100%;
+}
+.table h3{
+    font-weight: bold;
+    padding: 0px 10px 10px 0px;
+}
+.table th,td{
+    border: 1px solid black;
+    height:30px;
+    vertical-align: middle;
+    padding:10px;
+}
+thead{
+    background-color: #f8db93;
+}
+
+.map{
+    padding:10px;
+}
+.map h3{
+    margin: 10px 0px 10px 0;
+    font-weight: bold;
+}
+.map iframe{
+    width: 100%;
+    height:350px;
+}
+
+
+
+footer{
+    background-color:#242424;
+    color:#C68D00;
+    padding: 15px 5px 5px 10px;
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+}
+footer a:link{
+    color:#C68D00;
 }
 }
