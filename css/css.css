@@ -83,9 +83,9 @@ nav li:hover{
     color: #242424;
 }
 
-/***********************************
-***********MOBILE STYLES************
-************************************/
+/*******************************************************************
+                             MOBILE STYLES
+********************************************************************/
 
 @media screen and (max-width: 650px){
 
@@ -93,7 +93,9 @@ nav li:hover{
     max-width: 100%;
 }
 
-/**** nav bar ****/
+/**********************
+        nav bar 
+***********************/
 #logo{
     width:inherit;
     border: none;
@@ -114,7 +116,9 @@ ul li{
     height:25px;
     }
 
-/**** header ****/
+/**********************
+        header 
+***********************/
 header{
     display:block;
 }
@@ -148,7 +152,9 @@ header{
     background-color: #C68D00;
     border:none;
 }
-/*** about us ***/
+/**********************
+        about us 
+***********************/
 #about{
     display:block;
     background-color: #f8db93;
@@ -171,7 +177,9 @@ header{
     width:100%;
 }
 
-/*** our services ***/
+/************************
+        Our Services
+*************************/
 #services{
     padding: 10px;
     position:relative;
@@ -209,7 +217,9 @@ header{
     margin-bottom: 10px;
     margin-left: 10px;
 }
-/****** our vision section*****/
+/************************
+        Our Vision 
+*************************/
 #image-vision{
     width: 100%;
     max-width:650px;
@@ -240,6 +250,9 @@ header{
     border: solid 1px #C68D00;
     margin-top: 10px;
 }
+/**********************
+        Our Team 
+***********************/
 #team{
     padding:10px;
     position: relative;
@@ -270,8 +283,9 @@ header{
     padding-bottom: 25px;
 }
 
-
-/******** Contact section**********/
+/**********************
+       Contact Us 
+***********************/
 #contact{
     padding:10px;
 }
@@ -295,7 +309,6 @@ header{
     display:block;
     overflow:hidden;
 }
-
 #message{
     height: 7rem;
 }
@@ -306,6 +319,9 @@ header{
     padding:5px;
     border:none;
 }
+/**********************
+        Hours 
+***********************/
 .table{
     margin:10px;
 }
@@ -325,7 +341,9 @@ table{
 thead{
     background-color: #f8db93;
 }
-
+/**********************
+        Location
+***********************/
 .map{
     padding:10px;
 }
@@ -338,8 +356,9 @@ thead{
     height:350px;
 }
 
-
-
+/**********************
+        Footer 
+***********************/
 footer{
     background-color:#242424;
     color:#C68D00;
@@ -349,5 +368,30 @@ footer{
 }
 footer a:link{
     color:#C68D00;
+}
+}
+
+/*********************************************
+               DESKTOP STYLES
+**********************************************/
+@media screen and (min-width: 650px){
+/***** ADD NAV******/
+
+/**********************
+        header 
+***********************/
+header{
+    display:block;
+}
+#main-banner{
+    width: 100%;
+    position:absolute;
+}
+#banner h1{
+    font-size: 2.8rem;
+    font-weight:bold;
+    padding-top:30px;
+    padding-bottom:10px;
+    line-height: 1.3;
 }
 }
