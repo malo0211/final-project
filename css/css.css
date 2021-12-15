@@ -82,6 +82,11 @@ nav li:hover{
     background-color: #C68D00;
     color: #242424;
 }
+#banner button{
+    padding:20px;
+    background-color: #C68D00;
+    border:none;
+}
 
 /*******************************************************************
                              MOBILE STYLES
@@ -134,7 +139,7 @@ header{
     line-height: 1.3;
 }
 #banner{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
     position: relative;
     padding:10px;
@@ -382,14 +387,21 @@ footer a:link{
 nav{
     background-color: #242424; 
     color: rgb(216, 161, 10);
+    width: 100%;
+    height: 70px;
+    overflow:fit-content;
     display: inline-flex;
     align-items: center;
-    justify-content:space-evenly;
-    width: 100%
+    justify-content: center;
+    position:relative;
 }
 #logo{
     float:left;
-    padding-left: 5%;
+    padding-right:20px;
+}
+#logo img{ 
+    width:60px;
+    height: auto;
 }
 ul li,ul form{
     box-sizing: border-box;
@@ -404,41 +416,296 @@ ul form:nth-child(1){
 }
 form.search{
     font-size: 16px;
-    padding-right: 5%;
 }
 
 /******HEADER***********/
-
-header{
-    display:block;
-}
 #main-banner{
     width:100%;
     position:absolute;
+    max-height:400px;
+    object-fit:cover;
 }
 #banner h1{
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight:bold;
     padding-top:30px;
     padding-bottom:10px;
     line-height: 1.3;
+    max-width:90%;
 }
 #banner{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
-    width: 80%;
-    margin:40px;
-    position: relative;
+    margin:3% 8% 3% 8%;
     padding:10px;
+    position: relative;
     display:inline-block;
 }
 #banner p{
     padding-bottom:10px;
-    line-height: 1.4;
-    font-size:0.7rem;
+    line-height: 1.3;
+    font-size:0.8rem;
 }
-#banner button{
+
+/**********************
+        about us 
+***********************/
+#about{
+    display:block;
+    background-color: #f8db93;
+    position: relative;
+    float:inline-start;
+    overflow:hidden;
+    padding-left:10%;
+    padding-right:8%;
+}
+#about h2{
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding:10px;
+}
+#about p{
+    line-height: 1rem;
+    font-size:0.8rem;
+    padding:10px;
+}
+#about-us{
+    position: relative;
+    float:left;
+    width: 350px;
+    padding:10px;
+}
+
+#services h2{
+    margin-top:20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left:10%;
+}  
+#services{
+    padding:0;
+}
+.picture{
+    position: relative;
+    width:100%;
+}
+.section{
+     margin: 5px;
+     background-color: #f8db93;
+}
+.section h3{
+    padding: 20px 10px 10px 10px;
+    font-weight: bold;
+}
+.section p{
+    padding: 10px;
+    line-height: 1.3rem;
+    overflow:hidden;
+}
+.section button{
     padding:20px;
-    background-color: #C68D00;
+    background-color: black;
+    color: white;
     border:none;
+    width:98%;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section:nth-child(1){
+    width: 40%;
+    float:left;
+    padding:10px;
+}
+.section:nth-child(2){
+    width: 40%;
+    float:right;
+    padding:10px;
+}
+.section:nth-child(3){
+   flex-grow:25%;
+   float:left;
+}
+.section:nth-child(4){
+    flex-grow:25%;
+    float:inherit;
+ }
+ .section:nth-child(5){
+    flex-grow:25%;
+    float: right;
+ }
+/***
+.section:nth-child(1){
+   flex-grow:2;
+}
+.section:nth-child(2){
+    flex-grow:2;
+}
+.section:nth-child(3){
+    flex-grow:1;
+}
+.section:nth-child(4){
+    flex-grow:1;
+}
+.section:nth-child(5){
+    flex-grow:1;
+}
+***/ 
+/************************
+        Our Vision 
+*************************/
+#image-vision{
+    width: 100%;
+    overflow:hidden;
+    height:220px;
+    object-fit:cover;
+    position:absolute;
+    margin-bottom: 20px;
+}
+#vision{
+    position:relative;
+    color: white;
+    padding: 10px;
+    padding-bottom:0px;
+    line-height: 1.3rem;
+}
+#vision h3{
+    font-weight: bold;
+    padding-top: 20px;
+}
+#vision p{
+    padding-top: 20px;
+}
+#vision button{
+    padding:25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: solid 1px #C68D00;
+    margin-top: 10px;
+}
+/**********************
+        Our Team 
+***********************/
+#team{
+    padding:10px;
+    position: relative;
+    display:block;
+    width: fit-content;
+    float:inline-start;
+    overflow:hidden; 
+}
+
+#team h2{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.profile{
+    background-color: #f8db93;
+    padding-bottom: 10px;
+}
+#team h3, b{
+    font-weight: bold;
+    padding:10px;
+    line-height: 0.5rem;
+}
+#team b{
+    font-size: 0.8em;
+}
+#team p{
+    padding-bottom: 25px;
+}
+
+/**********************
+       Contact Us 
+***********************/
+#contact{
+    padding:10px;
+}
+#contact h2{ 
+    font-weight: bold;
+    margin-top:25px;
+}
+#contact h3{
+    padding: 20px 0 10px 0;
+    font-weight: bold;
+}
+#contact form{
+    padding: 0px 10px 15px 0;
+}
+#contact input, textarea{
+    border:1px solid #242424;
+    border-radius:3px;
+    padding: 5px;
+    margin-top:5px;
+    display:block;
+    overflow:hidden;
+}
+#message{
+    height: 7rem;
+}
+#contact button{
+    font-size: 1rem;
+    background-color: #242424;
+    color:#C68D00;
+    padding:5px;
+    border:none;
+}
+/**********************
+        Hours 
+***********************/
+.table{
+    margin:10px;
+}
+table{
+    width:100%;
+}
+.table h3{
+    font-weight: bold;
+    padding: 0px 10px 10px 0px;
+}
+.table th,td{
+    border: 1px solid black;
+    height:30px;
+    vertical-align: middle;
+    padding:10px;
+}
+thead{
+    background-color: #f8db93;
+}
+/**********************
+        Location
+***********************/
+.map{
+    padding:10px;
+}
+.map h3{
+    margin: 10px 0px 10px 0;
+    font-weight: bold;
+}
+.map iframe{
+    width: 100%;
+    height:350px;
+}
+
+/**********************
+        Footer 
+***********************/
+footer{
+    background-color:#242424;
+    color:#C68D00;
+    padding: 15px 5px 5px 10px;
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+}
+footer a:link{
+    color:#C68D00;
+}
 }
