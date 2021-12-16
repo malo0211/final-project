@@ -287,6 +287,19 @@ header{
 #team p{
     padding-bottom: 25px;
 }
+.section-b{
+    margin-bottom: 10px;
+    background-color: #f8db93;
+    width: 100%;
+}
+.section-b h3{
+   padding: 10px;
+}
+.section-b p{
+   padding: 10px;
+   font-weight: normal;
+   line-height: 1.3rem;
+}
 
 /**********************
        Contact Us 
@@ -359,6 +372,10 @@ thead{
 .map iframe{
     width: 100%;
     height:350px;
+}
+#flex-container2{
+    display:flex;
+    flex-direction: column-reverse;
 }
 
 /**********************
@@ -483,9 +500,7 @@ form.search{
     font-weight: bold;
     margin-left:10%;
 }  
-#services{
-    padding:0;
-}
+
 .picture{
     position: relative;
     width:100%;
@@ -493,24 +508,30 @@ form.search{
 .section{
      margin: 5px;
      background-color: #f8db93;
+     overflow:hidden;    
 }
 .section h3{
-    padding: 20px 10px 10px 10px;
+    padding: 20px 0 10px 0;
     font-weight: bold;
 }
 .section p{
-    padding: 10px;
     line-height: 1.3rem;
     overflow:hidden;
+    padding-bottom:10px;
+    margin-bottom:15%;
 }
 .section button{
     padding:20px;
     background-color: black;
     color: white;
     border:none;
-    width:98%;
-    margin-left:10px;
-    margin-bottom:10px;
+    width:100%;
+}
+.box{
+    padding:10px; 
+    display: flex;
+    flex-direction: column;
+    height:250px;
 }
 #flex-container{
     display: flex;
@@ -518,70 +539,53 @@ form.search{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-basis:auto;
 }
 .section:nth-child(1){
-    width: 40%;
+    width: 37.5%;
     float:left;
-    padding:10px;
 }
 .section:nth-child(2){
-    width: 40%;
+    width: 37.5%;
     float:right;
-    padding:10px;
 }
 .section:nth-child(3){
-   flex-grow:25%;
+   width:25%;
    float:left;
 }
 .section:nth-child(4){
-    flex-grow:25%;
+    width:25%;
     float:inherit;
  }
  .section:nth-child(5){
-    flex-grow:25%;
+    width:25%;
     float: right;
  }
-/***
-.section:nth-child(1){
-   flex-grow:2;
-}
-.section:nth-child(2){
-    flex-grow:2;
-}
-.section:nth-child(3){
-    flex-grow:1;
-}
-.section:nth-child(4){
-    flex-grow:1;
-}
-.section:nth-child(5){
-    flex-grow:1;
-}
-***/ 
+
 /************************
         Our Vision 
 *************************/
 #image-vision{
     width: 100%;
     overflow:hidden;
-    height:220px;
+    height:200px;
     object-fit:cover;
     position:absolute;
     margin-bottom: 20px;
 }
 #vision{
+    margin-top: 20px;
     position:relative;
     color: white;
-    padding: 10px;
+    padding: 25px 15% 20px 15%;
     padding-bottom:0px;
     line-height: 1.3rem;
 }
 #vision h3{
     font-weight: bold;
-    padding-top: 20px;
 }
 #vision p{
-    padding-top: 20px;
+    padding-top: 15px;
 }
 #vision button{
     padding:25px;
@@ -594,59 +598,65 @@ form.search{
         Our Team 
 ***********************/
 #team{
-    padding:10px;
-    position: relative;
-    display:block;
-    width: fit-content;
-    float:inline-start;
-    overflow:hidden; 
+    padding:4%; 
+    padding-bottom:30%;
+    margin-bottom:3%;
+    overflow:hidden;
+}
+.profile{
+    object-fit: fill;
 }
 
 #team h2{
     font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 8%;
+    margin-bottom:10px;
+} 
+#team-box{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height:300px;
 }
-.profile{
+.section-b{
     background-color: #f8db93;
-    padding-bottom: 10px;
-}
-#team h3, b{
-    font-weight: bold;
-    padding:10px;
-    line-height: 0.5rem;
-}
-#team b{
-    font-size: 0.8em;
-}
-#team p{
-    padding-bottom: 25px;
+    width: 100%;
 }
 
+.section-b h3,b{
+   padding: 10px;
+   font-weight: bold;
+}
+.section-b p{
+   padding: 10px;
+   font-weight: normal;
+   line-height: 1.3rem;
+}
 /**********************
        Contact Us 
 ***********************/
 #contact{
-    padding:10px;
+    width:40%;
+    float:left;
+    padding:30px;
 }
 #contact h2{ 
-    font-weight: bold;
-    margin-top:25px;
+        font-weight: bold;
 }
 #contact h3{
-    padding: 20px 0 10px 0;
-    font-weight: bold;
+        padding: 20px 0 10px 0;
+        font-weight: bold;
 }
 #contact form{
-    padding: 0px 10px 15px 0;
+        padding: 0px 10px 15px 0;
 }
 #contact input, textarea{
-    border:1px solid #242424;
-    border-radius:3px;
-    padding: 5px;
-    margin-top:5px;
-    display:block;
-    overflow:hidden;
+        border:1px solid #242424;
+        border-radius:3px;
+        padding: 5px;
+        width:100%;
+        margin-top:5px;
+        display:block;
+        overflow:hidden;
 }
 #message{
     height: 7rem;
@@ -659,6 +669,19 @@ form.search{
     border:none;
 }
 /**********************
+        Location
+***********************/
+.map{
+    padding:10px;
+}
+.map h3{
+    margin: 10px 0px 10px 0;
+    font-weight: bold;
+}
+.map iframe{
+    width: 50%;
+}
+/*******************
         Hours 
 ***********************/
 .table{
@@ -680,21 +703,6 @@ table{
 thead{
     background-color: #f8db93;
 }
-/**********************
-        Location
-***********************/
-.map{
-    padding:10px;
-}
-.map h3{
-    margin: 10px 0px 10px 0;
-    font-weight: bold;
-}
-.map iframe{
-    width: 100%;
-    height:350px;
-}
-
 /**********************
         Footer 
 ***********************/
