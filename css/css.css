@@ -397,7 +397,9 @@ footer a:link{
                DESKTOP STYLES
 **********************************************/
 @media screen and (min-width: 650px){
-
+#body{
+        max-width: 100%;
+    }
 /*********************************************
                  STYLING NAV BAR 
 **********************************************/
@@ -638,6 +640,7 @@ form.search{
     width:40%;
     float:left;
     padding:30px;
+    padding-left:5%;
 }
 #contact h2{ 
         font-weight: bold;
@@ -686,6 +689,7 @@ form.search{
 ***********************/
 .table{
     margin:10px;
+    padding:5%;
 }
 table{
     width:100%;
