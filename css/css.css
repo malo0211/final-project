@@ -100,7 +100,7 @@ nav li:hover{
 }
 
 /**********************
-        nav bar 
+        Nav Bar 
 ***********************/
 #logo{
     width:inherit;
@@ -123,7 +123,7 @@ ul li{
     }
 
 /**********************
-        header 
+        Header 
 ***********************/
 header{
     display:block;
@@ -159,7 +159,7 @@ header{
     border:none;
 }
 /**********************
-        about us 
+        About Us 
 ***********************/
 #about{
     display:block;
@@ -437,7 +437,9 @@ form.search{
     font-size: 16px;
 }
 
-/******HEADER***********/
+/*********************
+        HEADER
+**********************/
 #main-banner{
     width:100%;
     position:absolute;
@@ -456,7 +458,7 @@ form.search{
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     margin:3% 8% 3% 8%;
-    padding:10px;
+    padding:20px;
     position: relative;
     display:inline-block;
 }
@@ -467,7 +469,7 @@ form.search{
 }
 
 /**********************
-        about us 
+        About Us 
 ***********************/
 #about{
     display:block;
@@ -495,7 +497,9 @@ form.search{
     width: 350px;
     padding:10px;
 }
-
+/****************************
+         Our Services
+*****************************/
 #services h2{
     margin-top:20px;
     margin-bottom: 10px;
@@ -608,7 +612,6 @@ form.search{
 .profile{
     object-fit: fill;
 }
-
 #team h2{
     font-weight: bold;
     margin-top: 8%;
@@ -683,7 +686,7 @@ form.search{
 .map iframe{
     width: 50%;
 }
-/*******************
+/**********************
         Hours 
 ***********************/
 .table{
